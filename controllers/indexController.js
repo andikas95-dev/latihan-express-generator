@@ -1,3 +1,3 @@
 exports.index = (req, res) => {
-  res.send('controller success');
+  res.render('index', { title: 'Andika Perdana' });
 };
